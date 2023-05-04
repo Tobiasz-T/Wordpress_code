@@ -19,7 +19,7 @@
 	</script>
 	<link rel="alternate" type="application/rss+xml" title="BEE &raquo; Feed" href="http://localhost/wordpress/feed/" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css"/>
+	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/plik.css"/>
 <link rel="alternate" type="application/rss+xml" title="BEE &raquo; Comments Feed" href="http://localhost/wordpress/comments/feed/" />
 <script>
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/localhost\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"}};
@@ -212,6 +212,16 @@ body.custom-background { background-image: url("http://localhost/wordpress/wp-co
 					</div>
 		</div>
 							</div>
+		</section>
+		<section class="text">
+					<div id="text-box">
+						<h2>Cytaty</h2>
+						<h3>Kto ma pszczoły, ten ma świat wesoły.</h3>
+						<h3>Pracowita pszczoła i z gorzkiego ziela miód zbiera.</h3>
+						<h3>Wielkie mozoły, nim miód zniosą pszczoły.</h3>
+						<h3>Kto miód łyka, jak koń bryka.</h3>
+						<h3>Kto w ul dmuchnie, temu gęba spuchnie.</h3>
+					</div>
 		</section>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-1c02c77 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1c02c77" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
