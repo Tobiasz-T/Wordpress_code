@@ -1,0 +1,218 @@
+# Translation of Themes - Blogrid in Polish
+# This file is distributed under the same license as the Themes - Blogrid package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-04-08 06:47:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.6\n"
+"Language: pl\n"
+"Project-Id-Version: Themes - Blogrid\n"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Blogrid"
+msgstr "Blogrid"
+
+#: functions.php:112
+msgid "Sidebar"
+msgstr "Panel boczny"
+
+#: functions.php:55
+msgid "Primary"
+msgstr "Podstawowy"
+
+#: functions.php:162
+msgid "Header Widget (2)"
+msgstr "Widżet (2) nagłówka"
+
+#: functions.php:152
+msgid "Header Widget (1)"
+msgstr "Widżet (1) nagłówka"
+
+#: functions.php:142
+msgid "Footer Widget (3)"
+msgstr "Widżet (3) stopki"
+
+#: functions.php:132
+msgid "Footer Widget (2)"
+msgstr "Widżet (2) stopki"
+
+#: functions.php:122
+msgid "Footer Widget (1)"
+msgstr "Widżet (1) stopki"
+
+#: justinadlock-customizer-button/class-customize.php:76
+msgid "Premium Edition"
+msgstr "Wydanie Premium"
+
+#: functions.php:172
+msgid "Header Widget (3)"
+msgstr "Widżet (3) nagłówka"
+
+#: functions.php:450
+msgid "Show Header Everywhere"
+msgstr "Pokaż wszędzie nagłówek"
+
+#: functions.php:441
+msgid "Only Show Header Image On Front Page"
+msgstr "Pokaż obrazek nagłówka tylko na stronie głównej"
+
+#: functions.php:459
+msgid "Custom Text On Header Image"
+msgstr "Nietypowy tekst na obrazku nagłówka"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:216
+msgctxt "post author"
+msgid "by %s"
+msgstr "przez %s"
+
+#: inc/customizer.php:18
+msgid "Background Color"
+msgstr "Kolor tła"
+
+#: inc/customizer.php:17
+msgid "Header Settings"
+msgstr "Ustawienia nagłówka"
+
+#: inc/custom-header.php:34
+msgctxt "Default header image"
+msgid "Default"
+msgstr "Domyślny"
+
+#: header.php:31
+msgid "Menu"
+msgstr "Menu"
+
+#: template-parts/content-single.php:45 template-parts/content.php:62
+msgid "Pages:"
+msgstr "Strony:"
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:243
+msgid "Tagged %1$s"
+msgstr "Otagowano %1$s"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:270
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Edytuj <span class=\"screen-reader-text\">%s</span>"
+
+#: justinadlock-customizer-button/class-customize.php:77
+msgid "Get All Features"
+msgstr "Zdobądź wszystkie funkcje"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:240
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:233
+msgid ", "
+msgstr ", "
+
+#: functions.php:496
+msgid "Only Show Upper Widgets On Front Page"
+msgstr "Pokaż górne widżety tylko na stronie głównej"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Wszystko gotowe? <a href=\"%1$s\">Zacznij tutaj</a> i opublikuj swój pierwszy wpis."
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ups! Nie udało się znaleźć pożądanej strony."
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Nie udało się znaleźć tego, czego szukasz. Być może wyszukiwanie przyniesie lepsze rezultaty."
+
+#: template-parts/content-none.php:38
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Brak wyników wyszukiwania. Proszę spróbować ponownie z innymi słowami."
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Wygląda na to, że niczego tu nie ma. Może warto użyć poniższych odnośników albo wyszukiwarki?"
+
+#. translators: %s: search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "Wyniki wyszukiwania: %s"
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr "Możliwość komentowania została wyłączona."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Niczego nie znaleziono"
+
+#: functions.php:638
+msgid "Contact Support"
+msgstr "Kontakt z pomocą techniczną"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:40
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s komentarz do &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s komentarze do &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s komentarzy do &ldquo;%2$s&rdquo;"
+
+#. translators: 1: title.
+#: comments.php:34
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Jeden komentarz do &ldquo;%1$s&rdquo;"
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:236
+msgid "Posted in %1$s"
+msgstr "Opublikowano w %1$s"
+
+#: inc/template-tags.php:75
+msgid "Related Post"
+msgstr "Wpis powiązany"
+
+#. translators: %s: post title
+#: inc/template-tags.php:253
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Dodaj komentarz<span class=\"screen-reader-text\"> do %s</span>"
+
+#: functions.php:114 functions.php:124 functions.php:134 functions.php:144
+#: functions.php:154 functions.php:164 functions.php:174
+msgid "Add widgets here."
+msgstr "Tutaj można dodawać widżety."
+
+#. translators: %s: post date.
+#: inc/template-tags.php:210
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Opublikowano %s"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:50
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Czytaj dalej<span class=\"screen-reader-text\"> „%s”</span>"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://superbthemes.com/blogrid/blogrid-info/"
+msgstr "https://superbthemes.com/blogrid/blogrid-info/"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://superbthemes.com/"
+msgstr "https://superbthemes.com/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "themeeverest"
+msgstr "themeeverest"
