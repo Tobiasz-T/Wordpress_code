@@ -1,0 +1,1221 @@
+{
+    "manifest_version": "1.0.9",
+    "title": "Travel Agency",
+    "page_builder": "elementor",
+    "kit_version": "2.0.1",
+    "templates": [
+        {
+            "name": "Home 1",
+            "screenshot": "screenshots\/home-1.jpg",
+            "source": "templates\/home-1-681592bbfb802bfed19a0420018498ee.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home 2",
+            "screenshot": "screenshots\/home-2.jpg",
+            "source": "templates\/home-2-cb740185e04b9fb70c82d5fc2beba528.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us 1",
+            "screenshot": "screenshots\/about-us-1.jpg",
+            "source": "templates\/about-us-1-6b57b99f054c82ad89feea63ba82b3b4.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us 2",
+            "screenshot": "screenshots\/about-us-2.jpg",
+            "source": "templates\/about-us-2-c4b3347670ada6d5c070a83c2d2248ba.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Destination 1",
+            "screenshot": "screenshots\/destination-1.jpg",
+            "source": "templates\/destination-1-3f2945ab6cb5397ef09adda812f6ea0b.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Destination 2",
+            "screenshot": "screenshots\/destination-2.jpg",
+            "source": "templates\/destination-2-d7f5aca4a7bfd0adada22570a350cb3b.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Offers 1",
+            "screenshot": "screenshots\/offers-1.jpg",
+            "source": "templates\/offers-1-133b219db55fa04d50403a662ed62889.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Offers 2",
+            "screenshot": "screenshots\/offers-2.jpg",
+            "source": "templates\/offers-2-0a1a25b105392955361923715c30f7fe.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing 1",
+            "screenshot": "screenshots\/pricing-1.jpg",
+            "source": "templates\/pricing-1-1ac13d58978a21a8459a9253099b95df.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing 2",
+            "screenshot": "screenshots\/pricing-2.jpg",
+            "source": "templates\/pricing-2-a64a6f75fcef69b6524f3d7becb25996.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Specials 1",
+            "screenshot": "screenshots\/specials-1.jpg",
+            "source": "templates\/specials-1-74b9c85f49cdbdd202121adc27165ec0.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services 1",
+            "screenshot": "screenshots\/services-1.jpg",
+            "source": "templates\/services-1-41c859a6a523c4d7d829a3b1adc0a8ca.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Tour 1",
+            "screenshot": "screenshots\/single-tour-1.jpg",
+            "source": "templates\/single-tour-1-aa2cdc9b3106eeb831ac0f52369dc3dd.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQ 1",
+            "screenshot": "screenshots\/faq-1.jpg",
+            "source": "templates\/faq-1-b28fa599d108fce4175927b5d7c1acd2.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQ & Booking 2",
+            "screenshot": "screenshots\/faq-booking-2.jpg",
+            "source": "templates\/faq-booking-2-ffe454a62e001bd4bea9c707bd0944c4.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "2.9.6",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "required_css": [],
+    "images": [
+        {
+            "filename": "toa-heftiba-257785-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/toa-heftiba-257785-unsplash-500x333.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-681592bbfb802bfed19a0420018498ee.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-cb740185e04b9fb70c82d5fc2beba528.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/destination-1-3f2945ab6cb5397ef09adda812f6ea0b.json",
+                    "name": "Destination 1"
+                },
+                {
+                    "source": "templates\/offers-2-0a1a25b105392955361923715c30f7fe.json",
+                    "name": "Offers 2"
+                },
+                {
+                    "source": "templates\/pricing-2-a64a6f75fcef69b6524f3d7becb25996.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/services-1-41c859a6a523c4d7d829a3b1adc0a8ca.json",
+                    "name": "Services 1"
+                },
+                {
+                    "source": "templates\/faq-1-b28fa599d108fce4175927b5d7c1acd2.json",
+                    "name": "FAQ 1"
+                }
+            ],
+            "filesize": 375279,
+            "dimensions": [
+                1920,
+                1277
+            ]
+        },
+        {
+            "filename": "bay-beach-blue-2242207.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/bay-beach-blue-2242207-500x333.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-681592bbfb802bfed19a0420018498ee.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-cb740185e04b9fb70c82d5fc2beba528.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/about-us-1-6b57b99f054c82ad89feea63ba82b3b4.json",
+                    "name": "About Us 1"
+                },
+                {
+                    "source": "templates\/destination-1-3f2945ab6cb5397ef09adda812f6ea0b.json",
+                    "name": "Destination 1"
+                },
+                {
+                    "source": "templates\/destination-2-d7f5aca4a7bfd0adada22570a350cb3b.json",
+                    "name": "Destination 2"
+                },
+                {
+                    "source": "templates\/pricing-2-a64a6f75fcef69b6524f3d7becb25996.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/specials-1-74b9c85f49cdbdd202121adc27165ec0.json",
+                    "name": "Specials 1"
+                },
+                {
+                    "source": "templates\/services-1-41c859a6a523c4d7d829a3b1adc0a8ca.json",
+                    "name": "Services 1"
+                },
+                {
+                    "source": "templates\/single-tour-1-aa2cdc9b3106eeb831ac0f52369dc3dd.json",
+                    "name": "Single Tour 1"
+                }
+            ],
+            "filesize": 668565,
+            "dimensions": [
+                1920,
+                1280
+            ]
+        },
+        {
+            "filename": "sasha-stories-684488-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/sasha-stories-684488-unsplash-500x334.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-681592bbfb802bfed19a0420018498ee.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-cb740185e04b9fb70c82d5fc2beba528.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/about-us-1-6b57b99f054c82ad89feea63ba82b3b4.json",
+                    "name": "About Us 1"
+                },
+                {
+                    "source": "templates\/destination-2-d7f5aca4a7bfd0adada22570a350cb3b.json",
+                    "name": "Destination 2"
+                },
+                {
+                    "source": "templates\/offers-1-133b219db55fa04d50403a662ed62889.json",
+                    "name": "Offers 1"
+                },
+                {
+                    "source": "templates\/offers-2-0a1a25b105392955361923715c30f7fe.json",
+                    "name": "Offers 2"
+                },
+                {
+                    "source": "templates\/pricing-1-1ac13d58978a21a8459a9253099b95df.json",
+                    "name": "Pricing 1"
+                },
+                {
+                    "source": "templates\/services-1-41c859a6a523c4d7d829a3b1adc0a8ca.json",
+                    "name": "Services 1"
+                },
+                {
+                    "source": "templates\/single-tour-1-aa2cdc9b3106eeb831ac0f52369dc3dd.json",
+                    "name": "Single Tour 1"
+                }
+            ],
+            "filesize": 541943,
+            "dimensions": [
+                1920,
+                1281
+            ]
+        },
+        {
+            "filename": "andrew-ruiz-268701-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/andrew-ruiz-268701-unsplash-500x281.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-681592bbfb802bfed19a0420018498ee.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-cb740185e04b9fb70c82d5fc2beba528.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/about-us-1-6b57b99f054c82ad89feea63ba82b3b4.json",
+                    "name": "About Us 1"
+                },
+                {
+                    "source": "templates\/destination-1-3f2945ab6cb5397ef09adda812f6ea0b.json",
+                    "name": "Destination 1"
+                },
+                {
+                    "source": "templates\/destination-2-d7f5aca4a7bfd0adada22570a350cb3b.json",
+                    "name": "Destination 2"
+                },
+                {
+                    "source": "templates\/offers-1-133b219db55fa04d50403a662ed62889.json",
+                    "name": "Offers 1"
+                },
+                {
+                    "source": "templates\/offers-2-0a1a25b105392955361923715c30f7fe.json",
+                    "name": "Offers 2"
+                },
+                {
+                    "source": "templates\/pricing-2-a64a6f75fcef69b6524f3d7becb25996.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/services-1-41c859a6a523c4d7d829a3b1adc0a8ca.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 1356689,
+            "dimensions": [
+                3141,
+                1767
+            ]
+        },
+        {
+            "filename": "maximilien-t-scharner-318691-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/maximilien-t-scharner-318691-unsplash-500x889.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-681592bbfb802bfed19a0420018498ee.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-cb740185e04b9fb70c82d5fc2beba528.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/offers-1-133b219db55fa04d50403a662ed62889.json",
+                    "name": "Offers 1"
+                },
+                {
+                    "source": "templates\/pricing-2-a64a6f75fcef69b6524f3d7becb25996.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/specials-1-74b9c85f49cdbdd202121adc27165ec0.json",
+                    "name": "Specials 1"
+                },
+                {
+                    "source": "templates\/single-tour-1-aa2cdc9b3106eeb831ac0f52369dc3dd.json",
+                    "name": "Single Tour 1"
+                }
+            ],
+            "filesize": 756865,
+            "dimensions": [
+                1080,
+                1920
+            ]
+        },
+        {
+            "filename": "roxanne-desgagnes-102178-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/roxanne-desgagnes-102178-unsplash-500x333.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-681592bbfb802bfed19a0420018498ee.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-cb740185e04b9fb70c82d5fc2beba528.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/offers-1-133b219db55fa04d50403a662ed62889.json",
+                    "name": "Offers 1"
+                }
+            ],
+            "filesize": 518637,
+            "dimensions": [
+                1920,
+                1280
+            ]
+        },
+        {
+            "filename": "aishath-naj-460116-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/aishath-naj-460116-unsplash-500x332.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-681592bbfb802bfed19a0420018498ee.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-cb740185e04b9fb70c82d5fc2beba528.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/destination-1-3f2945ab6cb5397ef09adda812f6ea0b.json",
+                    "name": "Destination 1"
+                },
+                {
+                    "source": "templates\/destination-2-d7f5aca4a7bfd0adada22570a350cb3b.json",
+                    "name": "Destination 2"
+                },
+                {
+                    "source": "templates\/offers-2-0a1a25b105392955361923715c30f7fe.json",
+                    "name": "Offers 2"
+                },
+                {
+                    "source": "templates\/pricing-1-1ac13d58978a21a8459a9253099b95df.json",
+                    "name": "Pricing 1"
+                },
+                {
+                    "source": "templates\/pricing-2-a64a6f75fcef69b6524f3d7becb25996.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/services-1-41c859a6a523c4d7d829a3b1adc0a8ca.json",
+                    "name": "Services 1"
+                },
+                {
+                    "source": "templates\/faq-booking-2-ffe454a62e001bd4bea9c707bd0944c4.json",
+                    "name": "FAQ & Booking 2"
+                }
+            ],
+            "filesize": 1568827,
+            "dimensions": [
+                3957,
+                2631
+            ]
+        },
+        {
+            "filename": "amelie-ohlrogge-737337-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/amelie-ohlrogge-737337-unsplash-500x667.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-681592bbfb802bfed19a0420018498ee.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/about-us-1-6b57b99f054c82ad89feea63ba82b3b4.json",
+                    "name": "About Us 1"
+                },
+                {
+                    "source": "templates\/destination-1-3f2945ab6cb5397ef09adda812f6ea0b.json",
+                    "name": "Destination 1"
+                },
+                {
+                    "source": "templates\/destination-2-d7f5aca4a7bfd0adada22570a350cb3b.json",
+                    "name": "Destination 2"
+                },
+                {
+                    "source": "templates\/pricing-1-1ac13d58978a21a8459a9253099b95df.json",
+                    "name": "Pricing 1"
+                },
+                {
+                    "source": "templates\/pricing-2-a64a6f75fcef69b6524f3d7becb25996.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/services-1-41c859a6a523c4d7d829a3b1adc0a8ca.json",
+                    "name": "Services 1"
+                },
+                {
+                    "source": "templates\/single-tour-1-aa2cdc9b3106eeb831ac0f52369dc3dd.json",
+                    "name": "Single Tour 1"
+                }
+            ],
+            "filesize": 1409718,
+            "dimensions": [
+                1920,
+                2560
+            ]
+        },
+        {
+            "filename": "toa-heftiba-270794-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/toa-heftiba-270794-unsplash-500x327.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-681592bbfb802bfed19a0420018498ee.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-cb740185e04b9fb70c82d5fc2beba528.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/about-us-1-6b57b99f054c82ad89feea63ba82b3b4.json",
+                    "name": "About Us 1"
+                },
+                {
+                    "source": "templates\/destination-1-3f2945ab6cb5397ef09adda812f6ea0b.json",
+                    "name": "Destination 1"
+                },
+                {
+                    "source": "templates\/destination-2-d7f5aca4a7bfd0adada22570a350cb3b.json",
+                    "name": "Destination 2"
+                },
+                {
+                    "source": "templates\/offers-2-0a1a25b105392955361923715c30f7fe.json",
+                    "name": "Offers 2"
+                },
+                {
+                    "source": "templates\/pricing-2-a64a6f75fcef69b6524f3d7becb25996.json",
+                    "name": "Pricing 2"
+                }
+            ],
+            "filesize": 260222,
+            "dimensions": [
+                1920,
+                1257
+            ]
+        },
+        {
+            "filename": "pexels-photo-586687.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/pexels-photo-586687-500x750.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-681592bbfb802bfed19a0420018498ee.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-cb740185e04b9fb70c82d5fc2beba528.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/about-us-1-6b57b99f054c82ad89feea63ba82b3b4.json",
+                    "name": "About Us 1"
+                },
+                {
+                    "source": "templates\/destination-1-3f2945ab6cb5397ef09adda812f6ea0b.json",
+                    "name": "Destination 1"
+                },
+                {
+                    "source": "templates\/destination-2-d7f5aca4a7bfd0adada22570a350cb3b.json",
+                    "name": "Destination 2"
+                },
+                {
+                    "source": "templates\/offers-2-0a1a25b105392955361923715c30f7fe.json",
+                    "name": "Offers 2"
+                },
+                {
+                    "source": "templates\/pricing-1-1ac13d58978a21a8459a9253099b95df.json",
+                    "name": "Pricing 1"
+                },
+                {
+                    "source": "templates\/specials-1-74b9c85f49cdbdd202121adc27165ec0.json",
+                    "name": "Specials 1"
+                },
+                {
+                    "source": "templates\/services-1-41c859a6a523c4d7d829a3b1adc0a8ca.json",
+                    "name": "Services 1"
+                },
+                {
+                    "source": "templates\/single-tour-1-aa2cdc9b3106eeb831ac0f52369dc3dd.json",
+                    "name": "Single Tour 1"
+                }
+            ],
+            "filesize": 1650331,
+            "dimensions": [
+                1920,
+                2880
+            ]
+        },
+        {
+            "filename": "beach-beachlife-blue-307007.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/beach-beachlife-blue-307007-500x333.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-681592bbfb802bfed19a0420018498ee.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-cb740185e04b9fb70c82d5fc2beba528.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/destination-2-d7f5aca4a7bfd0adada22570a350cb3b.json",
+                    "name": "Destination 2"
+                },
+                {
+                    "source": "templates\/specials-1-74b9c85f49cdbdd202121adc27165ec0.json",
+                    "name": "Specials 1"
+                },
+                {
+                    "source": "templates\/single-tour-1-aa2cdc9b3106eeb831ac0f52369dc3dd.json",
+                    "name": "Single Tour 1"
+                }
+            ],
+            "filesize": 281253,
+            "dimensions": [
+                1280,
+                853
+            ]
+        },
+        {
+            "filename": "team1.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/team1-500x500.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-681592bbfb802bfed19a0420018498ee.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-cb740185e04b9fb70c82d5fc2beba528.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/about-us-1-6b57b99f054c82ad89feea63ba82b3b4.json",
+                    "name": "About Us 1"
+                },
+                {
+                    "source": "templates\/about-us-2-c4b3347670ada6d5c070a83c2d2248ba.json",
+                    "name": "About Us 2"
+                },
+                {
+                    "source": "templates\/destination-2-d7f5aca4a7bfd0adada22570a350cb3b.json",
+                    "name": "Destination 2"
+                },
+                {
+                    "source": "templates\/offers-1-133b219db55fa04d50403a662ed62889.json",
+                    "name": "Offers 1"
+                },
+                {
+                    "source": "templates\/offers-2-0a1a25b105392955361923715c30f7fe.json",
+                    "name": "Offers 2"
+                },
+                {
+                    "source": "templates\/pricing-2-a64a6f75fcef69b6524f3d7becb25996.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/faq-booking-2-ffe454a62e001bd4bea9c707bd0944c4.json",
+                    "name": "FAQ & Booking 2"
+                }
+            ],
+            "filesize": 84298,
+            "dimensions": [
+                500,
+                500
+            ]
+        },
+        {
+            "filename": "nikldn-690502-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/nikldn-690502-unsplash-500x625.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-681592bbfb802bfed19a0420018498ee.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/offers-1-133b219db55fa04d50403a662ed62889.json",
+                    "name": "Offers 1"
+                }
+            ],
+            "filesize": 789196,
+            "dimensions": [
+                1536,
+                1920
+            ]
+        },
+        {
+            "filename": "trailer.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/trailer.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2-cb740185e04b9fb70c82d5fc2beba528.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/about-us-1-6b57b99f054c82ad89feea63ba82b3b4.json",
+                    "name": "About Us 1"
+                },
+                {
+                    "source": "templates\/destination-1-3f2945ab6cb5397ef09adda812f6ea0b.json",
+                    "name": "Destination 1"
+                },
+                {
+                    "source": "templates\/services-1-41c859a6a523c4d7d829a3b1adc0a8ca.json",
+                    "name": "Services 1"
+                },
+                {
+                    "source": "templates\/faq-1-b28fa599d108fce4175927b5d7c1acd2.json",
+                    "name": "FAQ 1"
+                }
+            ],
+            "filesize": 2738,
+            "dimensions": [
+                65,
+                57
+            ]
+        },
+        {
+            "filename": "martt.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/martt.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2-cb740185e04b9fb70c82d5fc2beba528.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/about-us-1-6b57b99f054c82ad89feea63ba82b3b4.json",
+                    "name": "About Us 1"
+                },
+                {
+                    "source": "templates\/destination-1-3f2945ab6cb5397ef09adda812f6ea0b.json",
+                    "name": "Destination 1"
+                },
+                {
+                    "source": "templates\/pricing-1-1ac13d58978a21a8459a9253099b95df.json",
+                    "name": "Pricing 1"
+                },
+                {
+                    "source": "templates\/services-1-41c859a6a523c4d7d829a3b1adc0a8ca.json",
+                    "name": "Services 1"
+                },
+                {
+                    "source": "templates\/faq-1-b28fa599d108fce4175927b5d7c1acd2.json",
+                    "name": "FAQ 1"
+                }
+            ],
+            "filesize": 1812,
+            "dimensions": [
+                65,
+                57
+            ]
+        },
+        {
+            "filename": "parking.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/parking.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2-cb740185e04b9fb70c82d5fc2beba528.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/pricing-1-1ac13d58978a21a8459a9253099b95df.json",
+                    "name": "Pricing 1"
+                },
+                {
+                    "source": "templates\/specials-1-74b9c85f49cdbdd202121adc27165ec0.json",
+                    "name": "Specials 1"
+                },
+                {
+                    "source": "templates\/faq-1-b28fa599d108fce4175927b5d7c1acd2.json",
+                    "name": "FAQ 1"
+                }
+            ],
+            "filesize": 1974,
+            "dimensions": [
+                34,
+                57
+            ]
+        },
+        {
+            "filename": "sinziana-susa-490601-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/sinziana-susa-490601-unsplash.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2-cb740185e04b9fb70c82d5fc2beba528.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/offers-1-133b219db55fa04d50403a662ed62889.json",
+                    "name": "Offers 1"
+                }
+            ],
+            "filesize": 71696,
+            "dimensions": [
+                500,
+                331
+            ]
+        },
+        {
+            "filename": "tim-trad-196418-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/tim-trad-196418-unsplash-500x333.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2-cb740185e04b9fb70c82d5fc2beba528.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/offers-1-133b219db55fa04d50403a662ed62889.json",
+                    "name": "Offers 1"
+                }
+            ],
+            "filesize": 385334,
+            "dimensions": [
+                1920,
+                1280
+            ]
+        },
+        {
+            "filename": "architecture-buildings-canary-2265767.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/architecture-buildings-canary-2265767-500x375.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2-cb740185e04b9fb70c82d5fc2beba528.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/specials-1-74b9c85f49cdbdd202121adc27165ec0.json",
+                    "name": "Specials 1"
+                },
+                {
+                    "source": "templates\/single-tour-1-aa2cdc9b3106eeb831ac0f52369dc3dd.json",
+                    "name": "Single Tour 1"
+                }
+            ],
+            "filesize": 287900,
+            "dimensions": [
+                1280,
+                960
+            ]
+        },
+        {
+            "filename": "toa-heftiba-270800-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/toa-heftiba-270800-unsplash-500x328.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2-cb740185e04b9fb70c82d5fc2beba528.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/pricing-1-1ac13d58978a21a8459a9253099b95df.json",
+                    "name": "Pricing 1"
+                },
+                {
+                    "source": "templates\/pricing-2-a64a6f75fcef69b6524f3d7becb25996.json",
+                    "name": "Pricing 2"
+                }
+            ],
+            "filesize": 535264,
+            "dimensions": [
+                1920,
+                1260
+            ]
+        },
+        {
+            "filename": "team5.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/team5-500x500.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us-1-6b57b99f054c82ad89feea63ba82b3b4.json",
+                    "name": "About Us 1"
+                },
+                {
+                    "source": "templates\/about-us-2-c4b3347670ada6d5c070a83c2d2248ba.json",
+                    "name": "About Us 2"
+                },
+                {
+                    "source": "templates\/offers-1-133b219db55fa04d50403a662ed62889.json",
+                    "name": "Offers 1"
+                },
+                {
+                    "source": "templates\/offers-2-0a1a25b105392955361923715c30f7fe.json",
+                    "name": "Offers 2"
+                },
+                {
+                    "source": "templates\/faq-booking-2-ffe454a62e001bd4bea9c707bd0944c4.json",
+                    "name": "FAQ & Booking 2"
+                }
+            ],
+            "filesize": 84484,
+            "dimensions": [
+                500,
+                500
+            ]
+        },
+        {
+            "filename": "team4.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/team4-500x500.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us-1-6b57b99f054c82ad89feea63ba82b3b4.json",
+                    "name": "About Us 1"
+                },
+                {
+                    "source": "templates\/about-us-2-c4b3347670ada6d5c070a83c2d2248ba.json",
+                    "name": "About Us 2"
+                },
+                {
+                    "source": "templates\/offers-1-133b219db55fa04d50403a662ed62889.json",
+                    "name": "Offers 1"
+                },
+                {
+                    "source": "templates\/offers-2-0a1a25b105392955361923715c30f7fe.json",
+                    "name": "Offers 2"
+                },
+                {
+                    "source": "templates\/faq-booking-2-ffe454a62e001bd4bea9c707bd0944c4.json",
+                    "name": "FAQ & Booking 2"
+                }
+            ],
+            "filesize": 80664,
+            "dimensions": [
+                500,
+                500
+            ]
+        },
+        {
+            "filename": "oliver-cole-252386-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/oliver-cole-252386-unsplash-500x333.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us-1-6b57b99f054c82ad89feea63ba82b3b4.json",
+                    "name": "About Us 1"
+                },
+                {
+                    "source": "templates\/about-us-2-c4b3347670ada6d5c070a83c2d2248ba.json",
+                    "name": "About Us 2"
+                },
+                {
+                    "source": "templates\/offers-1-133b219db55fa04d50403a662ed62889.json",
+                    "name": "Offers 1"
+                },
+                {
+                    "source": "templates\/services-1-41c859a6a523c4d7d829a3b1adc0a8ca.json",
+                    "name": "Services 1"
+                },
+                {
+                    "source": "templates\/single-tour-1-aa2cdc9b3106eeb831ac0f52369dc3dd.json",
+                    "name": "Single Tour 1"
+                },
+                {
+                    "source": "templates\/faq-1-b28fa599d108fce4175927b5d7c1acd2.json",
+                    "name": "FAQ 1"
+                }
+            ],
+            "filesize": 609451,
+            "dimensions": [
+                1920,
+                1280
+            ]
+        },
+        {
+            "filename": "Traveling_icons_20.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/Traveling_icons_20.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us-1-6b57b99f054c82ad89feea63ba82b3b4.json",
+                    "name": "About Us 1"
+                },
+                {
+                    "source": "templates\/destination-1-3f2945ab6cb5397ef09adda812f6ea0b.json",
+                    "name": "Destination 1"
+                },
+                {
+                    "source": "templates\/pricing-1-1ac13d58978a21a8459a9253099b95df.json",
+                    "name": "Pricing 1"
+                },
+                {
+                    "source": "templates\/specials-1-74b9c85f49cdbdd202121adc27165ec0.json",
+                    "name": "Specials 1"
+                },
+                {
+                    "source": "templates\/services-1-41c859a6a523c4d7d829a3b1adc0a8ca.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 1454,
+            "dimensions": [
+                40,
+                57
+            ]
+        },
+        {
+            "filename": "t4.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/t4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us-2-c4b3347670ada6d5c070a83c2d2248ba.json",
+                    "name": "About Us 2"
+                }
+            ],
+            "filesize": 10574,
+            "dimensions": [
+                200,
+                180
+            ]
+        },
+        {
+            "filename": "suns.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/suns.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us-2-c4b3347670ada6d5c070a83c2d2248ba.json",
+                    "name": "About Us 2"
+                },
+                {
+                    "source": "templates\/specials-1-74b9c85f49cdbdd202121adc27165ec0.json",
+                    "name": "Specials 1"
+                },
+                {
+                    "source": "templates\/services-1-41c859a6a523c4d7d829a3b1adc0a8ca.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 2332,
+            "dimensions": [
+                50,
+                57
+            ]
+        },
+        {
+            "filename": "coffee.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/coffee.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us-2-c4b3347670ada6d5c070a83c2d2248ba.json",
+                    "name": "About Us 2"
+                },
+                {
+                    "source": "templates\/specials-1-74b9c85f49cdbdd202121adc27165ec0.json",
+                    "name": "Specials 1"
+                }
+            ],
+            "filesize": 1481,
+            "dimensions": [
+                44,
+                58
+            ]
+        },
+        {
+            "filename": "linus-nylund-310532-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/linus-nylund-310532-unsplash-500x749.jpg",
+            "templates": [
+                {
+                    "source": "templates\/destination-1-3f2945ab6cb5397ef09adda812f6ea0b.json",
+                    "name": "Destination 1"
+                },
+                {
+                    "source": "templates\/destination-2-d7f5aca4a7bfd0adada22570a350cb3b.json",
+                    "name": "Destination 2"
+                },
+                {
+                    "source": "templates\/pricing-2-a64a6f75fcef69b6524f3d7becb25996.json",
+                    "name": "Pricing 2"
+                }
+            ],
+            "filesize": 1095729,
+            "dimensions": [
+                2520,
+                3776
+            ]
+        },
+        {
+            "filename": "destination1_3.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/destination1_3-500x301.jpg",
+            "templates": [
+                {
+                    "source": "templates\/offers-1-133b219db55fa04d50403a662ed62889.json",
+                    "name": "Offers 1"
+                }
+            ],
+            "filesize": 262620,
+            "dimensions": [
+                1200,
+                722
+            ]
+        },
+        {
+            "filename": "destination1.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/destination1-500x316.jpg",
+            "templates": [
+                {
+                    "source": "templates\/offers-1-133b219db55fa04d50403a662ed62889.json",
+                    "name": "Offers 1"
+                },
+                {
+                    "source": "templates\/offers-2-0a1a25b105392955361923715c30f7fe.json",
+                    "name": "Offers 2"
+                }
+            ],
+            "filesize": 610167,
+            "dimensions": [
+                1880,
+                1187
+            ]
+        },
+        {
+            "filename": "bb.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/bb.jpg",
+            "templates": [
+                {
+                    "source": "templates\/offers-1-133b219db55fa04d50403a662ed62889.json",
+                    "name": "Offers 1"
+                },
+                {
+                    "source": "templates\/offers-2-0a1a25b105392955361923715c30f7fe.json",
+                    "name": "Offers 2"
+                }
+            ],
+            "filesize": 392621,
+            "dimensions": [
+                1920,
+                1135
+            ]
+        },
+        {
+            "filename": "net.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/net.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing-1-1ac13d58978a21a8459a9253099b95df.json",
+                    "name": "Pricing 1"
+                },
+                {
+                    "source": "templates\/specials-1-74b9c85f49cdbdd202121adc27165ec0.json",
+                    "name": "Specials 1"
+                },
+                {
+                    "source": "templates\/services-1-41c859a6a523c4d7d829a3b1adc0a8ca.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 2146,
+            "dimensions": [
+                48,
+                57
+            ]
+        },
+        {
+            "filename": "architecture-buildings-city-541217.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/architecture-buildings-city-541217-500x666.jpg",
+            "templates": [
+                {
+                    "source": "templates\/pricing-2-a64a6f75fcef69b6524f3d7becb25996.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/specials-1-74b9c85f49cdbdd202121adc27165ec0.json",
+                    "name": "Specials 1"
+                },
+                {
+                    "source": "templates\/single-tour-1-aa2cdc9b3106eeb831ac0f52369dc3dd.json",
+                    "name": "Single Tour 1"
+                }
+            ],
+            "filesize": 615422,
+            "dimensions": [
+                1280,
+                1706
+            ]
+        },
+        {
+            "filename": "architecture-balcony-buildings-723465.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-23\/wp-content\/uploads\/sites\/26\/2018\/06\/architecture-balcony-buildings-723465-500x666.jpg",
+            "templates": [
+                {
+                    "source": "templates\/specials-1-74b9c85f49cdbdd202121adc27165ec0.json",
+                    "name": "Specials 1"
+                },
+                {
+                    "source": "templates\/services-1-41c859a6a523c4d7d829a3b1adc0a8ca.json",
+                    "name": "Services 1"
+                },
+                {
+                    "source": "templates\/single-tour-1-aa2cdc9b3106eeb831ac0f52369dc3dd.json",
+                    "name": "Single Tour 1"
+                }
+            ],
+            "filesize": 708145,
+            "dimensions": [
+                1280,
+                1706
+            ]
+        }
+    ]
+}

@@ -1,4 +1,4 @@
-/*! elementor - v3.18.0 - 08-12-2023 */
+/*! elementor - v3.19.0 - 26-02-2024 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -272,18 +272,37 @@ var FilesUploadHandler = /*#__PURE__*/function () {
       frame.uploader.uploader.param('uploadTypeCaller', 'elementor-wp-media-upload');
     }
   }, {
+    key: "getUnfilteredFilesNonAdminDialog",
+    value: function getUnfilteredFilesNonAdminDialog() {
+      return elementorCommon.dialogsManager.createWidget('alert', {
+        id: 'e-unfiltered-files-disabled-dialog',
+        headerMessage: __('Sorry, you can\'t upload that file yet', 'elementor'),
+        message: __('This is because JSON files may pose a security risk.', 'elementor') + '<br><br>' + __('To upload them anyway, ask the site administrator to enable unfiltered file uploads.', 'elementor'),
+        strings: {
+          confirm: __('Got it', 'elementor')
+        }
+      });
+    }
+  }, {
     key: "getUnfilteredFilesNotEnabledDialog",
     value: function getUnfilteredFilesNotEnabledDialog(callback) {
+      var elementorInstance = window.elementorAdmin || window.elementor;
+      if (!elementorInstance.config.user.is_administrator) {
+        return this.getUnfilteredFilesNonAdminDialog();
+      }
       var onConfirm = function onConfirm() {
         elementorCommon.ajax.addRequest('enable_unfiltered_files_upload', {}, true);
         elementorCommon.config.filesUpload.unfilteredFiles = true;
         callback();
       };
-      return elementor.helpers.getSimpleDialog('e-enable-unfiltered-files-dialog', __('Enable Unfiltered File Uploads', 'elementor'), __('Before you enable unfiltered files upload, note that such files include a security risk. Elementor does run a process to remove possible malicious code, but there is still risk involved when using such files.', 'elementor'), __('Enable', 'elementor'), onConfirm);
+      return elementorInstance.helpers.getSimpleDialog('e-enable-unfiltered-files-dialog', __('Enable Unfiltered File Uploads', 'elementor'), __('Before you enable unfiltered files upload, note that such files include a security risk. Elementor does run a process to remove possible malicious code, but there is still risk involved when using such files.', 'elementor'), __('Enable', 'elementor'), onConfirm);
     }
   }, {
     key: "getUnfilteredFilesNotEnabledImportTemplateDialog",
     value: function getUnfilteredFilesNotEnabledImportTemplateDialog(callback) {
+      if (!(window.elementorAdmin || window.elementor).config.user.is_administrator) {
+        return this.getUnfilteredFilesNonAdminDialog();
+      }
       return elementorCommon.dialogsManager.createWidget('confirm', {
         id: 'e-enable-unfiltered-files-dialog-import-template',
         headerMessage: __('Enable Unfiltered File Uploads', 'elementor'),
@@ -587,7 +606,6 @@ Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
 exports["default"] = void 0;
-var _toConsumableArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/toConsumableArray */ "../node_modules/@babel/runtime/helpers/toConsumableArray.js"));
 var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ "../node_modules/@babel/runtime/helpers/slicedToArray.js"));
 var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "../node_modules/@babel/runtime/helpers/classCallCheck.js"));
 var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/createClass */ "../node_modules/@babel/runtime/helpers/createClass.js"));
@@ -756,22 +774,19 @@ var ExperimentsMessages = /*#__PURE__*/function () {
       }).show();
     }
   }, {
-    key: "joinDependenciesNames",
-    value: function joinDependenciesNames(array) {
-      var glue = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';
-      var finalGlue = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : '';
-      if ('' === finalGlue) {
-        return array.join(glue);
-      }
-      if (!array.length) {
-        return '';
-      }
-      if (1 === array.length) {
-        return array[0];
-      }
-      var clone = (0, _toConsumableArray2.default)(array),
-        lastItem = clone.pop();
-      return clone.join(glue) + finalGlue + lastItem;
+    key: "getSiteLanguageCode",
+    value: function getSiteLanguageCode() {
+      var languageCode = document.querySelector('html').getAttribute('lang');
+      return languageCode !== null && languageCode !== void 0 ? languageCode : 'en'; // Fallback to English if no language code found.
+    }
+  }, {
+    key: "formatDependenciesList",
+    value: function formatDependenciesList(dependencies) {
+      var dependenciesTitles = dependencies.map(function (d) {
+        return d.title;
+      });
+      var languageCode = this.getSiteLanguageCode();
+      return new Intl.ListFormat(languageCode).format(dependenciesTitles);
     }
   }, {
     key: "showDependenciesDialog",
@@ -779,12 +794,10 @@ var ExperimentsMessages = /*#__PURE__*/function () {
       var _this5 = this;
       var experiment = this.getExperimentData(experimentId),
         experimentName = experiment.title,
-        dialogMessage = this.joinDependenciesNames(this.getExperimentDependencies(experimentId).map(function (d) {
-          return d.title;
-        }));
+        dependenciesList = this.formatDependenciesList(this.getExperimentDependencies(experimentId));
 
       // Translators: %1$s: Experiment title, %2$s: Comma-separated dependencies list
-      var message = __('In order to use %1$s, first you need to activate %2$s.', 'elementor').replace('%1$s', "<strong>".concat(experimentName, "</strong>")).replace('%2$s', dialogMessage);
+      var message = __('In order to use %1$s, first you need to activate %2$s.', 'elementor').replace('%1$s', "<strong>".concat(experimentName, "</strong>")).replace('%2$s', dependenciesList);
       this.showDialog({
         message: message,
         headerMessage: __('First, activate another experiment.', 'elementor'),
@@ -1133,20 +1146,6 @@ module.exports = _arrayWithHoles, module.exports.__esModule = true, module.expor
 
 /***/ }),
 
-/***/ "../node_modules/@babel/runtime/helpers/arrayWithoutHoles.js":
-/*!*******************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/arrayWithoutHoles.js ***!
-  \*******************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-var arrayLikeToArray = __webpack_require__(/*! ./arrayLikeToArray.js */ "../node_modules/@babel/runtime/helpers/arrayLikeToArray.js");
-function _arrayWithoutHoles(arr) {
-  if (Array.isArray(arr)) return arrayLikeToArray(arr);
-}
-module.exports = _arrayWithoutHoles, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
 /***/ "../node_modules/@babel/runtime/helpers/assertThisInitialized.js":
 /*!***********************************************************************!*\
   !*** ../node_modules/@babel/runtime/helpers/assertThisInitialized.js ***!
@@ -1356,19 +1355,6 @@ module.exports = _interopRequireDefault, module.exports.__esModule = true, modul
 
 /***/ }),
 
-/***/ "../node_modules/@babel/runtime/helpers/iterableToArray.js":
-/*!*****************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/iterableToArray.js ***!
-  \*****************************************************************/
-/***/ ((module) => {
-
-function _iterableToArray(iter) {
-  if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter);
-}
-module.exports = _iterableToArray, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
 /***/ "../node_modules/@babel/runtime/helpers/iterableToArrayLimit.js":
 /*!**********************************************************************!*\
   !*** ../node_modules/@babel/runtime/helpers/iterableToArrayLimit.js ***!
@@ -1416,19 +1402,6 @@ function _nonIterableRest() {
   throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
 }
 module.exports = _nonIterableRest, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
-/***/ "../node_modules/@babel/runtime/helpers/nonIterableSpread.js":
-/*!*******************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/nonIterableSpread.js ***!
-  \*******************************************************************/
-/***/ ((module) => {
-
-function _nonIterableSpread() {
-  throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
-}
-module.exports = _nonIterableSpread, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
 
@@ -1814,23 +1787,6 @@ function _superPropBase(object, property) {
   return object;
 }
 module.exports = _superPropBase, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
-/***/ "../node_modules/@babel/runtime/helpers/toConsumableArray.js":
-/*!*******************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/toConsumableArray.js ***!
-  \*******************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-var arrayWithoutHoles = __webpack_require__(/*! ./arrayWithoutHoles.js */ "../node_modules/@babel/runtime/helpers/arrayWithoutHoles.js");
-var iterableToArray = __webpack_require__(/*! ./iterableToArray.js */ "../node_modules/@babel/runtime/helpers/iterableToArray.js");
-var unsupportedIterableToArray = __webpack_require__(/*! ./unsupportedIterableToArray.js */ "../node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js");
-var nonIterableSpread = __webpack_require__(/*! ./nonIterableSpread.js */ "../node_modules/@babel/runtime/helpers/nonIterableSpread.js");
-function _toConsumableArray(arr) {
-  return arrayWithoutHoles(arr) || iterableToArray(arr) || unsupportedIterableToArray(arr) || nonIterableSpread();
-}
-module.exports = _toConsumableArray, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
 
@@ -2278,7 +2234,9 @@ var _jsonUploadWarningMessage = __webpack_require__(/*! elementor-utils/json-upl
       });
     },
     initTemplatesImport: function initTemplatesImport() {
-      if (!elementorCommon.elements.$body.hasClass('post-type-elementor_library')) {
+      var _elementorAdminConfig, _elementorAdminConfig2;
+      var canImport = elementorAdminConfig.user.is_administrator || ((_elementorAdminConfig = (_elementorAdminConfig2 = elementorAdminConfig.user.restrictions) === null || _elementorAdminConfig2 === void 0 ? void 0 : _elementorAdminConfig2.includes('json-upload')) !== null && _elementorAdminConfig !== void 0 ? _elementorAdminConfig : false);
+      if (!canImport || !elementorCommon.elements.$body.hasClass('post-type-elementor_library')) {
         return;
       }
       var self = this,
@@ -2293,17 +2251,24 @@ var _jsonUploadWarningMessage = __webpack_require__(/*! elementor-utils/json-upl
       $importButton.on('click', function () {
         $('#elementor-import-template-area').toggle();
       });
-      var messageShown = false;
+      var messages = {
+        jsonUploadWarning: {
+          shown: false
+        },
+        enableUnfilteredFiles: {
+          shown: false
+        }
+      };
       var originalButtonValue = $importNowButton[0].value;
       $importForm.on('submit', /*#__PURE__*/function () {
         var _ref4 = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee(event) {
-          var enableUnfilteredFilesModal;
+          var hasImportedFiles, areUnfilteredFilesEnabled, enableUnfilteredFilesModal;
           return _regenerator.default.wrap(function _callee$(_context) {
             while (1) switch (_context.prev = _context.next) {
               case 0:
                 $importNowButton[0].disabled = true;
                 $importNowButton[0].value = __('Importing...', 'elementor');
-                if (messageShown) {
+                if (messages.jsonUploadWarning.shown) {
                   _context.next = 16;
                   break;
                 }
@@ -2316,7 +2281,7 @@ var _jsonUploadWarningMessage = __webpack_require__(/*! elementor-utils/json-upl
                   waitForSetViewed: true
                 });
               case 7:
-                messageShown = true;
+                messages.jsonUploadWarning.shown = true;
                 $importForm.trigger('submit');
                 _context.next = 15;
                 break;
@@ -2328,19 +2293,23 @@ var _jsonUploadWarningMessage = __webpack_require__(/*! elementor-utils/json-upl
               case 15:
                 return _context.abrupt("return");
               case 16:
-                if (!($importFormFileInput[0].files.length && !elementorCommon.config.filesUpload.unfilteredFiles)) {
-                  _context.next = 21;
+                hasImportedFiles = $importFormFileInput[0].files.length;
+                areUnfilteredFilesEnabled = elementorCommon.config.filesUpload.unfilteredFiles;
+                if (!(hasImportedFiles && !areUnfilteredFilesEnabled && !messages.enableUnfilteredFiles.shown)) {
+                  _context.next = 23;
                   break;
                 }
                 event.preventDefault();
                 enableUnfilteredFilesModal = _filesUploadHandler.default.getUnfilteredFilesNotEnabledImportTemplateDialog(function () {
+                  messages.enableUnfilteredFiles.shown = true;
                   $importForm.trigger('submit');
                 });
                 enableUnfilteredFilesModal.show();
                 return _context.abrupt("return");
-              case 21:
-                messageShown = false;
-              case 22:
+              case 23:
+                messages.jsonUploadWarning.shown = false;
+                messages.enableUnfilteredFiles.shown = false;
+              case 25:
               case "end":
                 return _context.stop();
             }

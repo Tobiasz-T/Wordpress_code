@@ -1,4 +1,4 @@
-/*! elementor - v3.18.0 - 08-12-2023 */
+/*! elementor - v3.19.0 - 26-02-2024 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -2120,18 +2120,37 @@ var FilesUploadHandler = /*#__PURE__*/function () {
       frame.uploader.uploader.param('uploadTypeCaller', 'elementor-wp-media-upload');
     }
   }, {
+    key: "getUnfilteredFilesNonAdminDialog",
+    value: function getUnfilteredFilesNonAdminDialog() {
+      return elementorCommon.dialogsManager.createWidget('alert', {
+        id: 'e-unfiltered-files-disabled-dialog',
+        headerMessage: __('Sorry, you can\'t upload that file yet', 'elementor'),
+        message: __('This is because JSON files may pose a security risk.', 'elementor') + '<br><br>' + __('To upload them anyway, ask the site administrator to enable unfiltered file uploads.', 'elementor'),
+        strings: {
+          confirm: __('Got it', 'elementor')
+        }
+      });
+    }
+  }, {
     key: "getUnfilteredFilesNotEnabledDialog",
     value: function getUnfilteredFilesNotEnabledDialog(callback) {
+      var elementorInstance = window.elementorAdmin || window.elementor;
+      if (!elementorInstance.config.user.is_administrator) {
+        return this.getUnfilteredFilesNonAdminDialog();
+      }
       var onConfirm = function onConfirm() {
         elementorCommon.ajax.addRequest('enable_unfiltered_files_upload', {}, true);
         elementorCommon.config.filesUpload.unfilteredFiles = true;
         callback();
       };
-      return elementor.helpers.getSimpleDialog('e-enable-unfiltered-files-dialog', __('Enable Unfiltered File Uploads', 'elementor'), __('Before you enable unfiltered files upload, note that such files include a security risk. Elementor does run a process to remove possible malicious code, but there is still risk involved when using such files.', 'elementor'), __('Enable', 'elementor'), onConfirm);
+      return elementorInstance.helpers.getSimpleDialog('e-enable-unfiltered-files-dialog', __('Enable Unfiltered File Uploads', 'elementor'), __('Before you enable unfiltered files upload, note that such files include a security risk. Elementor does run a process to remove possible malicious code, but there is still risk involved when using such files.', 'elementor'), __('Enable', 'elementor'), onConfirm);
     }
   }, {
     key: "getUnfilteredFilesNotEnabledImportTemplateDialog",
     value: function getUnfilteredFilesNotEnabledImportTemplateDialog(callback) {
+      if (!(window.elementorAdmin || window.elementor).config.user.is_administrator) {
+        return this.getUnfilteredFilesNonAdminDialog();
+      }
       return elementorCommon.dialogsManager.createWidget('confirm', {
         id: 'e-enable-unfiltered-files-dialog-import-template',
         headerMessage: __('Enable Unfiltered File Uploads', 'elementor'),
