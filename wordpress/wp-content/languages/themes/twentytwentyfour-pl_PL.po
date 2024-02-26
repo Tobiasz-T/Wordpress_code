@@ -2,14 +2,42 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty-Four package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-10-18 16:08:45+0000\n"
+"PO-Revision-Date: 2024-01-17 09:17:15+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
-"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
 "Language: pl\n"
 "Project-Id-Version: Themes - Twenty Twenty-Four\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4."
+msgstr "Twenty Twenty-Four został zaprojektowany tak, aby był elastyczny, wszechstronny i odpowiedni dla każdej witryny internetowej. Jego kolekcja szablonów i wzorców dostosowana jest do różnych potrzeb, takich jak wizytówka firmy, blogowanie i pisanie lub prezentacja pracy. Mnóstwo możliwości otwiera się dzięki zaledwie kilku zmianom w kolorystyce i typografii. Twenty Twenty-Four zawiera warianty stylów i pełne projekty stron, aby przyspieszyć proces tworzenia witryny, jest w pełni kompatybilny z edytorem witryn i wykorzystuje nowe narzędzia do projektowania wprowadzone w WordPress 6.4."
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Twenty Twenty-Four"
+msgstr "Twenty Twenty-Four"
+
+#: patterns/posts-list.php
+msgctxt "Pattern title"
+msgid "List of posts without images, 1 column"
+msgstr "Lista wpisów bez obrazków, 1 kolumna"
+
+#: patterns/hidden-portfolio-hero.php:16
+msgid "I’m <em>Leia Acosta</em>, a passionate photographer who finds inspiration in capturing the fleeting beauty of life."
+msgstr "Jestem <em>Leia Acosta</em>, pasjonatka fotografii, która znajduje inspirację w uchwyceniu ulotnego piękna życia."
+
+#: functions.php:200
+msgid "A collection of full page layouts."
+msgstr "Kolekcja układów pełnych stron."
+
+#: functions.php:199
+msgctxt "Block pattern category"
+msgid "Pages"
+msgstr "Strony"
 
 #. Author URI of the theme
 #. Translators: WordPress link.
@@ -109,11 +137,6 @@ msgstr "Strona z szerokim obrazem"
 msgctxt "Custom template name"
 msgid "Page With Sidebar"
 msgstr "Strona z paskiem bocznym"
-
-#: theme.json
-msgctxt "Custom template name"
-msgid "Page No Title"
-msgstr "Nr strony Tytuł"
 
 #: theme.json
 msgctxt "Template part name"
@@ -322,6 +345,74 @@ msgstr "Skamielina"
 msgctxt "Font family name"
 msgid "System Serif"
 msgstr "System Serif"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page No Title"
+msgstr "Strona bez tytułu"
+
+#: styles/ember.json styles/maelstrom.json
+msgctxt "Color name"
+msgid "Contrast / 2"
+msgstr "Kontrast / 2"
+
+#: styles/maelstrom.json
+msgctxt "Color name"
+msgid "Contrast / 3"
+msgstr "Kontrast / 3"
+
+#: patterns/footer.php:85
+msgid "Social"
+msgstr "Media społecznościowe"
+
+#: patterns/hidden-sidebar.php:33
+msgid "Popular Categories"
+msgstr "Popularne kategorie"
+
+#: patterns/footer-colophon-3-col.php:59
+msgid "Facebook"
+msgstr "Facebook"
+
+#: patterns/footer-colophon-3-col.php:59
+msgid "Instagram"
+msgstr "Instagram"
+
+#: patterns/footer-colophon-3-col.php:38
+msgid "Contact"
+msgstr "Kontakt"
+
+#: functions.php:51
+msgid "Pill"
+msgstr "Pigułka"
+
+#: patterns/footer-colophon-3-col.php:81
+msgid "&copy;"
+msgstr "&copy;"
+
+#: patterns/hidden-sidebar.php:49
+msgid "Useful Links"
+msgstr "Przydatne linki"
+
+#: patterns/footer.php:91
+msgid "Social Media"
+msgstr "Media społecznościowe"
+
+#: patterns/footer-colophon-3-col.php:56
+msgid "Follow"
+msgstr "Obserwuj"
+
+#: patterns/footer.php:63 patterns/footer.php:69
+msgid "Privacy"
+msgstr "Prywatność"
+
+#: patterns/hidden-post-navigation.php:9 patterns/hidden-post-navigation.php:10
+#: patterns/template-index-portfolio.php:16
+msgid "Posts"
+msgstr "Wpisy"
+
+#: patterns/hidden-comments.php:12
+msgid "Comments"
+msgstr "Komentarze"
 
 #. Author of the theme
 #, gp-priority: low
