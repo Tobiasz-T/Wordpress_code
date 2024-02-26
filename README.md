@@ -1,5 +1,4 @@
 # Wordpress_code
-# Wordpress_code
 ## Contents
 *  [Technology](#Technology)
 *  [Contact](#Contact)
